@@ -1,7 +1,7 @@
 #!/bin/bash
 # Move photo to a format path
-sDir="${1:-/volume1/Others/Deng photo Backup}"
-dDir="${2:-/volume1/Others/Deng photo Backup_new}"
+sDir="${1:-/volume1/Others/ALL-In}"
+dDir="${2:-/volume1/Others/photos_new}"
 mDepth="${3:-2}"
 iLog="${dDir}move.csv"
 eLog="${dDir}move.err"
